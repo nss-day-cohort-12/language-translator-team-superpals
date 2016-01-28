@@ -2,24 +2,22 @@
 <html lang="en">
 	<head>
 	  <meta charset="utf-8">
-	  <title>Translator</title>
+	  <title>TranslatorV1</title>
 	</head>
-
-
 	<body>
-	    <label for="input">input </label><textarea id="Input" name="input"></textarea>
-	  	<label for="language">language</label>
-    	<select id="feedback-type" name="type">
+		<fieldset>
+	    	<input id="inputText" type="text" name="inputText">
+    		<select id="languageType" name="languageType">
       		<option>German</option>
       		<option>Spanish</option>
       		<option>Arabic</option>
       		<option>French</option>
-      	</select>
+      		</select>
+      		<button id="translateButton">translate</button>
+      	</fieldset>
       		
-      		<button type="button">translate</button>
-
 		
 		<p id="translationOutput"></p>
-
+		<script src="main.js"></script>
 	</body>
 </html>
