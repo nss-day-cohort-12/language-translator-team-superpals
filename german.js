@@ -18,3 +18,5 @@ var Translator = (function(newTranslator) {
    }
  
 )(Translator);
+
+//german stuff added 
