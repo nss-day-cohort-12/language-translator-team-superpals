@@ -1,5 +1,5 @@
 
-var Translator = (function() {
+var Translator = (function(newTranslator) {
   var words = {
   	"merry": "Feliz",
   	"christmas": "Navidad",
