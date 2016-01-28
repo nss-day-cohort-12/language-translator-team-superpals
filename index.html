@@ -2,24 +2,36 @@
 <html lang="en">
 	<head>
 	  <meta charset="utf-8">
-	  <title>TranslatorV1</title>
+	  <title>Translator</title>
 	</head>
 	<body>
-
-		<fieldset>
-	    	<input id="inputText" type="text" name="inputText">
-    		<select id="languageType" name="languageType">
+	    <label for="input">input </label><textarea id="inputText" name="input"></textarea>
+	  	<label for="language">language</label>
+    	<select id="languageType" name="type">
       		<option>German</option>
       		<option>Spanish</option>
       		<option>Arabic</option>
       		<option>French</option>
-      		</select>
+      	</select>
       		<button id="translateButton">translate</button>
-      	</fieldset>
+    
       		
 		
 		<p id="translationOutput"></p>
-		<script src="Spanish.js"></script>
+
+   
+      		
+      		<button id="translateButton">translate</button>
+
+		
+		<p id="translationOutput"></p>
+
+	  <script src="main.js"></script>
+	  <script src="arabic.js"></script>
+	  <script src="german.js"></script>
+    <script src="spanish.js"></script>
+	  <script src="french.js"></script>
+
 
 	</body>
 </html>
